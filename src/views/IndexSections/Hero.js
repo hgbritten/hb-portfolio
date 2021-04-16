@@ -53,8 +53,7 @@ class Hero extends React.Component {
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      A beautiful Design System for Bootstrap 4. It's Free and
-                      Open Source.
+                      No es chicha ni limonada
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button

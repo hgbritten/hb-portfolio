@@ -25,6 +25,9 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+import busmall from "assets/img/theme/busmall.PNG";
+import salmoncooks from "assets/img/theme/Salmon Cookies.PNG"
+import codefoes from "assets/img/theme/CodeFoes.PNG"
 
 // reactstrap components
 import {
@@ -33,6 +36,7 @@ import {
   Card,
   CardBody,
   CardImg,
+  // CardImgOverlay,
   FormGroup,
   Input,
   InputGroupAddon,
@@ -50,7 +54,7 @@ import CardsFooter from "components/Footers/CardsFooter.js";
 // index page sections
 import Download from "../IndexSections/Download.js";
 
-class Landing extends React.Component {
+class Portfolio extends React.Component {
   state = {};
   componentDidMount() {
     document.documentElement.scrollTop = 0;
@@ -81,16 +85,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        A look into the past{" "}
+                        <span>complete with examples</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Lets take a look at some of my previous projects using all the coding languages I learned while at Code Fellows
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -111,7 +113,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -143,17 +145,17 @@ class Landing extends React.Component {
                   <Row className="row-grid">
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardImg src={busmall} alt="Card image cap" />
+                        {/* <CardImgOverlay> */}
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Bus-Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A simple project that displays my skills with localStorage and table rendering
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
@@ -175,21 +177,21 @@ class Landing extends React.Component {
                             Learn more
                           </Button>
                         </CardBody>
+                        {/* </CardImgOverlay> */}
                       </Card>
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardImg src={salmoncooks} alt="Card image cap" />
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Salmon Cookies
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Salmon Cookies was a great experience with math, forms, event listeners, and random numbers
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
@@ -215,17 +217,16 @@ class Landing extends React.Component {
                     </Col>
                     <Col lg="4">
                       <Card className="card-lift--hover shadow border-0">
+                      <CardImg src={codefoes} alt="Card image cap" />
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            CodeFoes
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            CodeFoes was our capstone 201 project that used all of the skills we learned in 201 using JavaScript, html5, and CSS
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -712,7 +713,7 @@ class Landing extends React.Component {
                         block
                         className="btn-white"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-portfolio-page"
                         size="lg"
                       >
                         Download React
@@ -869,4 +870,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing;
+export default Portfolio;

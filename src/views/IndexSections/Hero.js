@@ -19,7 +19,7 @@ import React from "react";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+import reactWhite from "assets/img/theme/tempsnip_1_100x100.png";
 import creative from "assets/img/brand/creativetim-white-slim.png";
 
 class Hero extends React.Component {
@@ -48,18 +48,24 @@ class Hero extends React.Component {
                   <Col className="text-center" lg="6">
                     <img
                       alt="..."
-                      className="img-fluid"
+                      className="img-fluid rounded-circle shadow"
                       src={reactWhite}
                       style={{ width: "200px" }}
                     />
                     <p className="lead text-white">
-                      No es chicha ni limonada
+                      My name is Hunter - Welcome!
+                      <br>
+                      </br>
+                      Software Developer in Seattle, WA
+                      <br>
+                      </br>
+                      Education: Code Fellows 2021, WSU 2017
                     </p>
                     <div className="btn-wrapper mt-5">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0"
                         color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-portfolio-page"
                         size="lg"
                       >
                         <span className="btn-inner--icon mr-1">

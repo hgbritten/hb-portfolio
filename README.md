@@ -226,3 +226,29 @@ Facebook: <https://www.facebook.com/CreativeTim?ref=creativetim>
 Dribbble: <https://dribbble.com/creativetim?ref=creativetim>
 
 Instagram: <https://www.instagram.com/CreativeTimOfficial?ref=creativetim>
+
+### Source
+
+- https://fervent-austin-26c88c.netlify.app/ 
+
+### Time Estimate
+Number and name of feature: Deployment 1
+
+Estimate of time needed to complete: 20 min
+
+Start time: 11:30
+
+Finish time: 11:50
+
+Actual time needed to complete: 20 min I did this coding along
+
+### Modify the contents
+Number and name of feature: Deployment 1
+
+Estimate of time needed to complete: 20 min
+
+Start time: 11:30
+
+Finish time: 11:50
+
+Actual time needed to complete: 20 min I did this coding along

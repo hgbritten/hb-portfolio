@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/tempsnip_1_100x100.png";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -124,31 +124,27 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Hunter Britten{" "}
+                      <span className="font-weight-light">, 28</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Seattle, Washington
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Washington State University, Code Fellows
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Hi my name is Hunter and I am a 28 year old Washington native. I've been here my whole life and am a huge outdoors person. I received my bachelors from WSU with a focus in advertising and marketing and have worked in many different fields from sales to customer service, and marketing. I realized that it was time to make a change about when my daughter Charli was born and decided to go back to something I had left behind: coding. Something I was always interested in, but never gave a chance. My first job shadow in 8th grade was actually done at Microsoft where I shadowed a gentleman working on the game Too Human. I helped him debug the game and see him fix code. I was hooked instantly! From my various jobs I knew I had the ability to teach myself any skill and if coding was what I wanted to do I could do it. I love building things so this is the perfect spot for me to be. 4. I am excited by the layers of tech. There are so many layers to the tech onion. There is basically an infinite amount of things to learn. There are also many ways to skin a cat as is with coding there are many ways to solve a coding problem.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
